@@ -1,0 +1,170 @@
+.main{
+    display:flex;
+    width:100%;
+    height:100%;
+    flex-direction: column;
+
+
+}
+
+.nav{
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    height:50px;
+    width:1000px;
+    justify-content: center;
+    align-items: center;
+    gap : 8px;
+    
+}
+
+.btn1 a{
+    color: black;
+    gap :10px;
+    text-decoration: none;
+}
+.btn2 a{
+    color: black;
+    gap: 10px;
+}
+
+.content{
+    background-color: rgb(217, 235, 245);
+    display:flex;
+    /* flex-direction:row ;
+    width:1000px;
+    height:500px */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1000px;
+    height: 500px; /* Adjust height to fit the content */
+    align-items: center;
+    padding-bottom: 20px; /* Add space between content and the last section */
+    margin: 50px auto;
+
+}
+
+.sub-content{
+    background-color: rgb(217, 235, 245);
+    font-size: small;
+    /* width:1000px; */
+    max-width: 50%;
+}
+.last{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    /* height:50px;
+    width:2000px;
+    margin-top: 500px; */
+    
+    align-items: center; /* Vertically align the text */
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto; /* Center align */
+    margin-top: 271px; /* Add space from the content section */
+    font-size: small; /* Adjust font size */
+}
+.btn1{
+    /* background-color: aliceblue; */
+    color: black;
+    font-size:12px;
+    text-decoration: none;
+    
+
+}
+.btn2{
+    color: rgb(0, 0, 0); /* White text */
+    background-color: red; /* Red background */
+    padding: 4px 15px; /* Button size */
+    border: none; /* No border */
+    border-radius: 3px; /* Rounded corners */
+    text-align: center;
+    font-size: 12px; ;
+}
+.btn{
+    background-color: red;
+    width: 70px;
+    margin-left: 55px;
+    
+}
+
+
+h1{
+    font-size: small;
+}
+h2, h3{
+    font-size: medium;
+    font-style: normal;
+    
+}
+
+h4{
+    display: flex;
+    flex-direction: row;
+}
+h5,h6{
+    font-size: small;
+    font-style: normal;
+}
+h7,h8{
+    font-size: small;
+    font-style: normal;
+}
+
+.button-row {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+    margin-top: 20px; /* Adjust spacing from the text */
+}
+
+.LearnMore {
+    color: black; /* Black text */
+    text-decoration: underline; /* Underlined text */
+    font-size: 12px; /* Adjust font size */
+    border: none; /* No border */
+    background: none; /* No background */
+    padding: 5px 10px; /* Adjust spacing */
+}
+
+.HireMe {
+    color: rgb(0, 0, 0); /* White text */
+    background-color: red; /* Red background */
+    padding: 4px 15px; /* Button size */
+    border: none; /* No border */
+    border-radius: 3px; /* Rounded corners */
+    text-align: center;
+    font-size: 12px; /* Adjust font size */
+}
+
+.HireMe:hover {
+    background-color: darkred; /* Darker red on hover */
+}
+
+.LearnMore:hover {
+    color: #007BFF; /* Change to blue on hover */
+}
+
+.button-row {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+.last h5, .last h6 {
+    font-size: 14px;
+}
+h1{
+    margin-top: 40px;
+}
+
+ 

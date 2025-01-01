@@ -1,0 +1,11 @@
+.table{
+    width: 70% ;
+    margin: 0 15;
+
+    border-collapse: collapse;
+
+}
+
+.table th, td{
+    border: 2px solid navy;
+}

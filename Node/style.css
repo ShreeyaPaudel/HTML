@@ -1,0 +1,14 @@
+.box{
+    border: solid black;
+    gap: 10px;
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container{
+   // background-color: aliceblue;//
+}

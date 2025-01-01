@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "style.css">
+
+</head>
+
+<body>
+
+    <h1 > BUtton click game</h1>
+<div class = "button-container">
+    <button>Button 1</button>
+    <button>Button 2</button>
+    <button>Button 3</button>
+    <button>Button 4</button>
+    <button>Button 5</button>
+    
+</div>
+<p> Total clicks : <span id = "clickCount">0</span></p>
+<button id = "reset-btn" onclick="clickCount(ev)" >Reset</button>
+<br></br>
+
+
+<div class = "parent">
+    <button id = "childBtn">Child</button>
+
+</div>
+
+<div class = "child">
+    <button id = "parent-btn">Parent</button>
+</div>
+
+<button id = "removableBtn">removableHandler</button>
+    
+</body>
+<script src = "script.js"></script>
+</html>

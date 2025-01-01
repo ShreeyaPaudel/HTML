@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "Style.css">
+</head>
+<body>
+    <div class = "main">
+    <header>
+        <h1>Input-Submit</h1>
+        <h2>change-focus-blur</h2>
+        <h3>Click-MouseDown-MouseUP</h3>
+        <h4>KeyDown-KeyUp-KeyPress</h4>
+    </header>
+    <form>
+        <input type = "text" id = "fullName" onchange="changeName(event)"  placeholder="Full Name" required>
+        <br></br>
+         <!-- <input type = "date" id="DOB" placeholder="DOB" required>
+        <br></br>
+         -->
+        <input type = "text" id= "address"  onclick="changeAddress(event)"   placeholder="Address" required>
+        <br></br>
+        <input type = "email" id="email" ondblclick="changeEmail(event)" placeholder = "Email" required>
+        <br></br>
+        <input type="password" id = "passwordd" onchange="changePasswordd(event)" placeholder="enter password" required>
+        <br></br>
+        <input type="password" placeholder="confirm password" required>
+        <br></br>
+        <div class = "Button">
+            <button id = "Submit">SignUp </button> 
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>

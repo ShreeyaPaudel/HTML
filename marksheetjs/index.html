@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Marksheet-Calculator</h1>
+        <form id="marksForm">
+            <div class="input-group">
+                <label for="webDev">Web Development:</label>
+                <input type="number" id="webDev" placeholder="Enter mark " required>
+            </div>
+            <div class="input-group">
+                <label for="softwareDev">Android Studio Using Kotlin:</label>
+                <input type="number" id="softwareDev" placeholder="Enter mark " required>
+            </div>
+            <div class="input-group">
+                <label for="programming"> Software Development:</label>
+                <input type="number" id="programming" placeholder="Enter mark " required>
+            </div>
+            <div class="input-group">
+                <label for="androidStudio">Programming for Developers:</label>
+                <input type="number" id="androidStudio" placeholder="Enter mark " required>
+            </div>
+            <button type="button" onclick="calculateResults()">Calculate Results</button>
+        </form>
+
+        <div id="results" class="hidden">
+            <p><strong>Percentage:</strong> <span id="percentage">0%</span></p>
+            <p><strong>GPA:</strong> <span id="gpa">0.0</span></p>
+            <p><strong>Your Grade:</strong> <span id="grade">N/A</span></p>
+        </div>
+
+    </div>
+    
+</body>
+</html>

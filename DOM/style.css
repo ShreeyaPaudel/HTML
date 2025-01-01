@@ -1,0 +1,45 @@
+.button{
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: small;
+    font-style: normal;
+    border-radius: 50px0;
+    width: 570px;
+}
+h2{
+    color: brown;
+}
+
+.highlight1{
+    border: black;
+    border-style: solid;
+    background-color: gray;
+}
+.Add{
+    border: black;
+    border-style: solid;
+    background-color: gray;
+}
+.Remove{
+    border: black;
+    border-style: solid;
+    background-color: gray;
+}
+.Toggle{
+    border: black;
+    border-style: solid;
+    background-color: gray;
+}
+
+
+.Welcome{
+    color:black;
+}
+
+.item{
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}

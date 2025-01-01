@@ -1,0 +1,36 @@
+
+
+body{
+    background-color: rgb(3, 38, 69);
+}
+.box1{
+    background-color: rgb(144, 229, 255);
+    border-style: solid;
+    width:1190px;
+    height: 55px;
+    margin-left: 5px;
+    text-align: center;
+    margin-top: 80px;
+    ;
+} 
+
+/* .box2{
+    background-color: rgb(144, 229, 255);
+    border-style: solid;
+    width:1000px;
+    height: 55px;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 70px;
+    ;
+}  */
+header{
+    background-color: rgb(144, 229, 255);
+    text-align: center;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    margin-left: 20px;
+    justify-content: center;
+}

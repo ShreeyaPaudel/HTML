@@ -1,0 +1,90 @@
+.main1{
+    background-color: rgb(224, 221, 187);
+    height: 100vh;
+    width: 1000px;
+}
+.nav{
+    background-color: rgba(114, 105, 105, 0);
+    height: 100px;
+    width: 1000px;
+    margin: 8px;
+    display: flex;
+}
+.wrap{
+    background-color: aliceblue;
+    height: 600;
+    width: 800;
+    margin: 8px;
+    display:flex;
+}
+.sidebar{
+    background-color:gray;
+    height: 900px;
+    width:120px;
+    display: flex;
+    flex-direction: column;
+    margin: apx;
+
+}
+.content1{
+    background-color: grey;
+    height: 900px;
+    width: 1000px;
+    display: flex;
+    margin: 8px;
+  
+}
+.box{
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.sub{
+    background-color: rgb(224, 221, 187);
+    height: 790px;
+    width: 785px;
+    margin: auto;
+    display: flex;
+}
+.sub1{
+    background-color:gray;
+    height: 690px;
+    width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.box1{
+    background-color: white;
+    height: 90px;
+    width: 400px;
+    margin: auto;
+
+}
+.logo{
+    background-color: gray;
+    height: 83px;
+    width: 210px;
+    margin:8px;
+    
+}
+.heading{
+    background-color: gray;
+    height: 83px;
+    width: 800px;
+    margin: 8px;
+    
+}
+
+.lastbox{
+    background-color:gray;
+    height: 83px;
+    width: 150px;
+    margin: 8px;
+    
+}
+
+

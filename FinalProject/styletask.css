@@ -1,0 +1,146 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* background-image: url("handmade\ \(2\).png");  */
+    /* background-size: cover; */
+    color: #333;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("homepageBackground.png.jpg"); 
+    opacity: 0.9;  
+    width: 100%;
+    background-size: contain;
+    background-position: center;   
+    background-attachment: fixed; /* Fix background in place */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.logo{
+    /* background-color: rgb(226, 221, 196); */
+    height: 39px;
+    width: 43px;
+    background-image: url("yarn.png");
+    background-blend-mode: overlay;
+    border-radius: 50%;
+    background-size: contain;
+    
+}
+
+
+
+.wrap {
+    display: flex;
+    flex: 1;
+}
+
+.content {
+    width: 80%;
+    max-width: 800px;
+    flex: 1;
+    padding: 20px;
+    /* background: rgba(255, 255, 255, 0.8);  */
+    border-radius: 10px;
+    margin-left: 300px;
+    overflow-y: auto;
+    text-align: left;
+    margin-left: 19px;
+    
+}
+
+.content-box {
+    display: flex;
+    padding: 20px;
+    border: 1px solid #ddd;
+    /* background-color: rgb(98, 146, 157); */
+    border-radius: 5px;
+    max-width: fit-content;
+}
+
+
+
+
+h3{
+    color:rgb(120, 39, 39) ;
+    margin-top: 45px;
+    margin-left: 165;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+h4{
+    color:rgb(120, 39, 39) ;
+    margin-top: 80px;
+    margin-left: 159;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+form input {
+    max-width: fit-content;
+    padding: 4px;
+    margin: 5px 0;
+    border: 1px solid rgb(128, 84, 84);
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.Button{
+    margin-left:76px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color:  rgb(120, 39, 39);
+    /* color: white; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 30px;
+    text-align: center;
+}
+
+
+#contact p {
+    margin-top: 200px;
+    margin: 15px 0;
+    font-size: 16px;
+    
+}
+a{
+    color: rgb(120, 39, 39);
+    font-family: 'Times New Roman', Times, serif;
+}
+p1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: smaller;
+    margin-top: 100px;
+}
+
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .content {
+        width: 90%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .content {
+        width: 60%;
+    }
+}
+

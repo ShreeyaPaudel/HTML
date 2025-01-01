@@ -1,0 +1,64 @@
+/* .main{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.nav{
+    position: absolute;
+    background-color: gray;
+    height:60px;
+    width: 100%;
+} */
+
+.cards{
+    height: 300px;
+    width: 300px;
+    border: solid 1px;
+   
+}
+
+/* .bottom-bar{
+    position: absolute;
+    bottom: 1px;
+    background-color: black;
+    height: 60px;
+    width:100%;
+} */
+
+.name{
+    height: 30px;
+    width:300px;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Age{
+    height: 60px;
+    width:60px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Contact{
+    height:30px;
+    width:30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.Address{
+    height:30px;
+    width:30px;
+    background-color: white;
+    display: flex;
+}
